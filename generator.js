@@ -1,7 +1,6 @@
 module.exports = (api, options) => {
   api.extendPackage({
     dependencies: {
-      "normalize.css": "^8.0.0",
       "axios": "^0.18.0"
     },
     eslintConfig: {

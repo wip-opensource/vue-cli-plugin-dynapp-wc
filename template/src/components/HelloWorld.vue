@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout
-      text-xs-center
+      text-center
       wrap
     >
       <v-flex xs12>
@@ -129,6 +129,10 @@
         {
           text: 'Explore Vuetify components',
           href: 'https://vuetifyjs.com/components/api-explorer'
+        },
+        {
+          text: 'Select a layout',
+          href: 'https://vuetifyjs.com/layout/pre-defined',
         },
         {
           text: 'Frequently Asked Vuetify Questions',
