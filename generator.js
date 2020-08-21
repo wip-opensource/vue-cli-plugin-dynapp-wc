@@ -1,7 +1,7 @@
 module.exports = (api, options) => {
   api.extendPackage({
     dependencies: {
-      "axios": "^0.18.0"
+      "axios": "^0.19.2"
     },
     eslintConfig: {
       rules: {
