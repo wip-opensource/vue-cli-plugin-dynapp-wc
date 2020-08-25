@@ -16,3 +16,9 @@ Invoke it
 ```sh
 vue invoke dynapp-wc
 ```
+
+## Changelog
+
+### v1.1.4
+
+* Added scroll behavior setting to router
