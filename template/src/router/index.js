@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
+import Home from '../views/Home.vue'
+import About from '../views/About.vue'
 
 Vue.use(Router)
 
 export default new Router({
-  scrollBehavior (_, _, savedPosition) {
+  scrollBehavior (to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;
     } else {
