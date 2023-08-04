@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-dynapp-wc",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Some project standards for web components in wip",
   "main": "index.js",
   "author": "Daniel Björkander <danielb@wip.se>",
