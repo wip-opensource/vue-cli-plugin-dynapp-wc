@@ -5,7 +5,11 @@ module.exports = (api, options) => {
     },
     eslintConfig: {
       rules: {
-        "vue/require-v-for-key": 0
+        "vue/require-v-for-key": 0,
+        'vue/multi-word-component-names': 0,
+        'vue/valid-v-slot': ['error', {
+          allowModifiers: true,
+        }]
       }
     }
   });
